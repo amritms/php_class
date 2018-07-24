@@ -3,7 +3,7 @@ include('includes/header.php');
 
 include('menu.php');
 
-// 1. database connection [config.php, and it is used by functions in functions.php]
+//database connection [config.php, and it is used by functions in functions.php]
 
 $configuration = new config('root', '', 'php_class_database');
 $conn = $configuration->db_connect();
